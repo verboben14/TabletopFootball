@@ -1,0 +1,14 @@
+﻿<Window x:Class="RugosFoci.CsapatElnevezesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Csapatok" Height="190.91" Width="321.344" Background="Green" KeyDown="CsapatokWindow_KeyDown">
+    <Grid>
+        <TextBox x:Name="txtSajatCsapat" Height="23" Margin="162,29,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Candara" Foreground="DarkGreen"/>
+        <TextBox x:Name="txtEllenfelCsapat" Height="23" Margin="162,69,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Candara" Foreground="DarkGreen"/>
+        <Label Content="Első csapat:" HorizontalAlignment="Left" Margin="57,27,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" Foreground="White"/>
+        <Label Content="Második csapat:" HorizontalAlignment="Left" Margin="25,62,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" Foreground="White"/>
+        <Button IsDefault="True" Content="OK" HorizontalAlignment="Left" Margin="65,113,0,0" VerticalAlignment="Top" Width="75" Click="CsapatOKClick" Background="White" FontSize="16" Foreground="DarkGreen"/>
+        <Button Content="Mégsem" HorizontalAlignment="Left" Margin="148,113,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Background="White" FontSize="16" Foreground="DarkGreen"/>
+
+    </Grid>
+</Window>

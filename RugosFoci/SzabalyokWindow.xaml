@@ -1,0 +1,21 @@
+﻿<Window x:Class="RugosFoci.SzabalyokWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SzabalyokWindow" Height="599.269" Width="592.885" Background="Green" KeyDown="SzabalyokWindow_KeyDown">
+    <Grid>
+        <Label Content="Szabályok" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="200" HorizontalContentAlignment="Center" FontSize="35" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- A két személy beírhatja az általuk kívánt csapat neveket a játék előtt" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- Egy meccs 5 percig tart, nyilvánvalóan az nyer aki több gólt rúg" HorizontalAlignment="Left" Margin="30,135,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- Ha az egyik játékos körül jelzett körben van a labda és az elég lassú" HorizontalAlignment="Left" Margin="30,170,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="a játékos megkapja a labdát, és ő jöhet a következő rúgással" HorizontalAlignment="Left" Margin="39,190,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- A játékosokat egérrel lehet irányítani, a jelzett körön belül lehet" HorizontalAlignment="Left" Margin="30,225,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="'felhúzni' a játékost, ezzel be lehet állítani, milyen erősen lője el" HorizontalAlignment="Left" Margin="39,245,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="a labdát, ha nála van, miután elengedi az egér gombját" HorizontalAlignment="Left" Margin="39,265,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- A bal csapat kapusa a fel és le gombokkal irányítható, a jobb csapat" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="kapusa pedig a NUM pad 5-ös és 2-es gombokkal" HorizontalAlignment="Left" Margin="39,320,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- A meccs megállítható a Space gombbal, kilépni pedig az Escape-pel lehet" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- Bal és jobb felül a csapatok színeinek jelzője található (melyik melyik)" HorizontalAlignment="Left" Margin="30,390,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Label Content="- Gól esetén a labda visszakerül középre és elindul egy random irányba" HorizontalAlignment="Left" Margin="30,425,0,0" VerticalAlignment="Top" Width="545" FontSize="17" FontFamily="Candara" Foreground="White"/>
+        <Button Content="Bezárás" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" Width="150" Height="50" Background="White" FontSize="20" FontFamily="Candara" Foreground="DarkGreen" Click="SzabalyokBezaras_Click"/>
+    </Grid>
+</Window>

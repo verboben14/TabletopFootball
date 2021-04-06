@@ -1,0 +1,17 @@
+﻿<Window x:Class="RugosFoci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:app="clr-namespace:RugosFoci"
+        Title="MainWindow" Height="423.32" Width="649.506" WindowState="Maximized" KeyDown="MainKeyDown" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="Kepek/celebration.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="Rugósfoci" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="100" Height="130" Width="550" FontFamily="Broadway" FontStyle="Italic" Foreground="#FFB40008"/>
+        <Button Content="Játék" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="170" Height="60" FontSize="30" Click="UjJatekClick" IsDefault="True" Background="White" Foreground="#FFB40008"/>
+        <Button Content="Szabályok" HorizontalAlignment="Center" Margin="0,420,0,0" VerticalAlignment="Top" Width="170" Height="60" FontSize="30" Click="SzabalyokClick" Background="White" Foreground="#FFB40008"/>
+        <Button Content="Kilépés" HorizontalAlignment="Center" Margin="0,540,0,0" VerticalAlignment="Top" Width="170" Height="60" FontSize="30" Click="KilepesClick" Background="White" Foreground="#FFB40008"/>
+        
+
+    </Grid>
+</Window>
